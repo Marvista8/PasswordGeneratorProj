@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(173, 187, 187);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(23, 47, 90);
+    box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px 100px / 120px;
+    border: 2px solid black;
+    padding: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    width: 400px;
+}
+.color {
+    color: rgb(55, 246, 144);
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.details {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1em;
+    color: rgb(129, 255, 188);
+    padding-bottom: 15px;
+}
+
+label {
+    font-weight: 400;
+}
+
+.characterSelector {
+    display: flex;
+    align-items: center;
+}
+
+.numberRange {
+    width: 3rem;
+}
+
+.password-display {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius:  0.5rem;
+    height: 3rem;
+    width: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-break: break-all;
+}
+.btn {
+    grid-column: span 2;
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(48, 236, 136);
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    margin: 1.5rem;
+}
+
+.btn:hover {
+    background-color: rgb(87, 230, 156);
+    font-weight: 300;
+    color: black;
+}
