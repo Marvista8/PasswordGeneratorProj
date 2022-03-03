@@ -11,7 +11,7 @@ The main header should be able to transform and reveal the password.
 function nextPage() {
     let nextPageBtn = document.getElementsByClassName("bgnBtn");
     console.log(nextPageBtn);
-    nextPageBtn = onclick(location.href="/password.html");
+    nextPageBtn = onclick(location.href="https://marvista8.github.io/PasswordGeneratorProj/password.html");
 }
 
 //These are all of the global elements that are seen and are called by the functions, this includes all the unicode values that were set up.
